@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Sirius", "raDeg": 101.2875, "decDeg": -16.7161, "mag": -1.46 },
+  { "id": 2, "name": "Canopus", "raDeg": 95.9879, "decDeg": -52.6957, "mag": -0.74 },
+  { "id": 3, "name": "Arcturus", "raDeg": 213.9154, "decDeg": 19.1825, "mag": -0.05 },
+  { "id": 4, "name": "Vega", "raDeg": 279.2347, "decDeg": 38.7837, "mag": 0.03 },
+  { "id": 5, "name": "Capella", "raDeg": 79.1723, "decDeg": 45.9979, "mag": 0.08 },
+  { "id": 6, "name": "Rigel", "raDeg": 78.6345, "decDeg": -8.2016, "mag": 0.13 },
+  { "id": 7, "name": "Procyon", "raDeg": 114.8255, "decDeg": 5.225, "mag": 0.34 },
+  { "id": 8, "name": "Betelgeuse", "raDeg": 88.7929, "decDeg": 7.4071, "mag": 0.42 },
+  { "id": 9, "name": "Achernar", "raDeg": 24.4286, "decDeg": -57.2367, "mag": 0.46 },
+  { "id": 10, "name": "Hadar", "raDeg": 210.9558, "decDeg": -60.3731, "mag": 0.61 },
+  { "id": 11, "name": "Altair", "raDeg": 297.6958, "decDeg": 8.8683, "mag": 0.77 },
+  { "id": 12, "name": "Acrux", "raDeg": 186.649, "decDeg": -63.0991, "mag": 0.76 },
+  { "id": 13, "name": "Aldebaran", "raDeg": 68.9802, "decDeg": 16.5093, "mag": 0.85 },
+  { "id": 14, "name": "Antares", "raDeg": 247.3519, "decDeg": -26.432, "mag": 1.06 },
+  { "id": 15, "name": "Spica", "raDeg": 201.2983, "decDeg": -11.1614, "mag": 0.97 },
+  { "id": 16, "name": "Pollux", "raDeg": 116.3289, "decDeg": 28.0262, "mag": 1.14 },
+  { "id": 17, "name": "Fomalhaut", "raDeg": 344.4128, "decDeg": -29.6222, "mag": 1.16 },
+  { "id": 18, "name": "Deneb", "raDeg": 310.3579, "decDeg": 45.2803, "mag": 1.25 },
+  { "id": 19, "name": "Mimosa", "raDeg": 191.93, "decDeg": -59.6888, "mag": 1.25 },
+  { "id": 20, "name": "Regulus", "raDeg": 152.0933, "decDeg": 11.9672, "mag": 1.35 }
+]
