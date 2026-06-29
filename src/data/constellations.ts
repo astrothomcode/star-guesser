@@ -1,37 +1,39 @@
 export type Constellation = {
   name: string;
-  edges: [string, string][];
+  fullEdges: [string, string][];
+  coreEdges: [string, string][];
 };
 
 export const constellations: Constellation[] = [
   {
     name: "Orion",
-    edges: [
+    fullEdges: [
       ["Betelgeuse", "Bellatrix"],
       ["Bellatrix", "Mintaka"],
       ["Mintaka", "Alnilam"],
       ["Alnilam", "Alnitak"],
       ["Alnitak", "Saiph"],
       ["Saiph", "Rigel"],
-      ["Rigel", "Mintaka"]
+      ["Rigel", "Mintaka"],
+      ["Betelgeuse", "Alnitak"]
+    ],
+    coreEdges: [
+      ["Mintaka", "Alnilam"],
+      ["Alnilam", "Alnitak"],
+      ["Betelgeuse", "Bellatrix"],
+      ["Saiph", "Rigel"]
     ],
   },
   {
     name: "Crux",
-    edges: [
-      ["Acrux", "Mimosa"],
-      ["Mimosa", "Gacrux"],
-      ["Gacrux", "Delta Crucis"],
+    fullEdges: [
+      ["Gacrux", "Mimosa"],
+      ["Mimosa", "Acrux"],
       ["Mimosa", "Delta Crucis"]
     ],
-  },
-  {
-    name: "Cassiopeia",
-    edges: [
-      ["Caph", "Schedar"],
-      ["Schedar", "Gamma Cassiopeiae"],
-      ["Gamma Cassiopeiae", "Ruchbah"],
-      ["Ruchbah", "Segin"]
+    coreEdges: [
+      ["Gacrux", "Mimosa"],
+      ["Mimosa", "Acrux"]
     ],
   },
 ];
